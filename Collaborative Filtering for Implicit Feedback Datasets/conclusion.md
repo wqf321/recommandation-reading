@@ -17,6 +17,7 @@ loss如下图
 
 改进：1.一般的评分高数据，很多时候并不能够显示该数的真实情况，隐性数据有噪声，所以作者进一步把rui变成了两个可以解释的维度,一个是p ui,表示用户的喜好程度，一个是cui表示用户喜好程度的置信程度。这更好的反应了数据的本质，以及对于提高数据准确率是非常重要的。  
 2.算法可以用线性时间计算完   
-评估方式： 
+评估方式： 为u推荐i得到的百分等级排名，使用的评价指标是rankrankrank的平均值，即  
+![Image text](https://github.com/wqf321/recommandation-reading/blob/master/Collaborative%20Filtering%20for%20Implicit%20Feedback%20Datasets/3.jpg)这个指标越低越好，原文rank=50%,复现结果应大于等于50%。
 个人认为 难点：   
 不足：    

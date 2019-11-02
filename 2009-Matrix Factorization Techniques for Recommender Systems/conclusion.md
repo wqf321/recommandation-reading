@@ -11,12 +11,13 @@
 ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-Matrix%20Factorization%20Techniques%20for%20Recommender%20Systems/2.jpg)  
 预测值接近真实值就是使其误差越小，这是我们的目标函数（损失函数），我们的目标就是使误差达到最小化，最小化上述公式的常用方法是梯度下降法和最小二乘法。这里比较了两种方法各自的优缺点。  
 SGD比ALS更容易和更快，但是ALS在以下两种情况下是有利的:  
-a.系统可以使用并行化，在ALS中，系统独立于其他项目因子计算每个qi，并独立于其他用户因素计算每个pu。这导致了算法的潜在大规模并行化；
-b.针对以隐式数据为中心的系统，因为训练集不能被认为是稀疏的，所以在每个训练案例上循环，如梯度下降那样，是不切实际的。ALS可以有效处理这种情况。
-2.biases MF：
-3.嵌入额外信息的MF、
-4.时序动态MF、
-5.考虑隐式反馈的MF  
+a.系统可以使用并行化，在ALS中，系统独立于其他项目因子计算每个qi，并独立于其他用户因素计算每个pu。这导致了算法的潜在大规模并行化；  
+b.针对以隐式数据为中心的系统，因为训练集不能被认为是稀疏的，所以在每个训练案例上循环，如梯度下降那样，是不切实际的。ALS可以有效处理这种情况。  
+2.biases MF：  ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-Matrix%20Factorization%20Techniques%20for%20Recommender%20Systems/4.jpg)
+![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-Matrix%20Factorization%20Techniques%20for%20Recommender%20Systems/5.jpg)    
+3.嵌入额外信息的MF: ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-Matrix%20Factorization%20Techniques%20for%20Recommender%20Systems/6.jpg)    
+4.时序动态MF:![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-Matrix%20Factorization%20Techniques%20for%20Recommender%20Systems/7.jpg)  
+5.考虑隐式反馈的MF: ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-Matrix%20Factorization%20Techniques%20for%20Recommender%20Systems/8.jpg)    
 额外介绍了Netflix推荐大赛的情况  
 
 总结：  

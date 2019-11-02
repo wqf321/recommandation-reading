@@ -5,7 +5,7 @@
 2、介绍协同过滤算法，并将其分为neighborhood methods 和 latent factor models两类。着重介绍了矩阵分解的原理。  
 3、矩阵分解的一个优点是它允许合并额外的信息。当无法获得明确反馈时，推荐系统可以使用隐式反馈推断用户偏好，隐式反馈通过观察用户行为（包括购买历史记录、浏览历史记录、搜索模式甚至鼠标移动）间接反映意见。隐式反馈通常表示事件的存在或不存在，因此它通常由一个密集的矩阵表示。  
 4、具体介绍了几种矩阵分解算法：  
-1.Basic MF：基本的矩阵分解，向量q_i∈R^f, p_u∈R^f,则评分预测为：
+1.Basic MF：基本的矩阵分解，向量q_i∈R^f, p_u∈R^f,则评分预测为：![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-Matrix%20Factorization%20Techniques%20for%20Recommender%20Systems/1.jpg)，为防止过拟合
 2.biases MF：
 3.嵌入额外信息的MF、
 4.时序动态MF、

@@ -1,10 +1,15 @@
 注：此文为推荐系统中经典的协同过滤方法的综述
 引言：协同过滤作为实现推荐系统最成功的方法之一，通过使用某个用户群体的偏好来产生推荐或者预测某个用户对一个商品的评分。在本文中，首先介绍了CF任务及其主要挑战，例如数据稀疏性，可伸缩性，同义词，灰羊，先令攻击，隐私保护等，以及它们可能的解决方案。然后，介绍了CF技术的三个主要类别：基于记忆，基于模型和混合CF算法（将CF与其他推荐技术相结合），并举例说明每种类别的代表性算法，并分析其预测性能和处理能力以及现阶段主要挑战（2008）。  
 
-主要难关：数据稀疏问题（Data Sparsity Problem）、孤独用户的存在问题（gray sheep）、同义词（synonymy）、冷启动（cold start）、欺诈攻击（Shilling Attacks）、可伸缩性（Scalability）、隐私问题（Privacy）、增长的噪声（Increased noise）、可解释性（Explainability）
+主要难关：数据稀疏问题（Data Sparsity Problem）、孤独用户的存在问题（gray sheep）、同义词（synonymy）、冷启动（cold start）、欺诈攻击（Shilling Attacks）、可伸缩性（Scalability）、隐私问题（Privacy）、增长的噪声（Increased noise）、可解释性（Explainability）  
 
+介绍了基于记忆的协同过滤方法：基于内存的数据算法使用用户项目数据库的全部或一个样本来生成预测。每个用户都是一群兴趣相似的人的一部分。通过识别新用户(或活跃用户)的所谓邻居，可以为他或她产生对新项目的偏好预测。  
+1.相似度计算（Similarity Computation）
+2.预测和推荐计算（ Prediction and Recommendation Computation）
+3.最顶N项推荐（Top-N Recommendations）
+4.对基于内存的推荐算法的扩展（Extensions to Memory-Based Algorithms）  
 
-
-
-
+介绍了基于模型的协同过滤算法中的贝叶斯信念网络、聚类协同过滤算法、基于回归的协同过滤算法、基于马尔科夫决策过程的协同过滤算法、隐语义协同过滤算法。  
+介绍了一些混合式推荐系统。  
+介绍了评价推荐系统性能好坏的评估矩阵。  
 

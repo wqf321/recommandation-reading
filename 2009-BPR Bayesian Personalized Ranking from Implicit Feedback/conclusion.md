@@ -23,5 +23,7 @@ BPR Learning Algorithm：上式对theta求导得出![Image text](https://github.
 因此使用随机梯度下降算法（SGD），得出收敛算法伪代码如下图：![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-BPR%20Bayesian%20Personalized%20Ranking%20from%20Implicit%20Feedback/7.jpg)
 
 评估：本文BPR与其他推荐学习方法进行了比较，选择了矩阵分解（MF）和k最近邻（kNN）这两个受欢迎的模型类别。对于任何非个性化排名方法，都给出了AUC（NPmax）的理论上限。本文实验主要使用了The Rossmann dataset和The DVD rental dataset of Netflix.实验结果表明通过LearnBPR学习的BPR-Optcriterion优于其他从隐式反馈进行个性化排名的最新方法。
-
+个人认为：  
+1.难点：原文中X^uij的model解释没有看的太懂，看了一些博客，找到一个比较好理解的解释如下图：![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2009-BPR%20Bayesian%20Personalized%20Ranking%20from%20Implicit%20Feedback/8.jpg)  
+2.不足：这篇文章比较经典。。。暂时还想不出什么明显的不足，有一点感觉不足的地方就是BPR模型可能会把大量的计算资源浪费在用户更有可能不感兴趣的missing数据的排序上，这样做没什么实际的价值。
 

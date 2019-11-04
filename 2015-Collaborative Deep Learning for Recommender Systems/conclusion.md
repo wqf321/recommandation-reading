@@ -10,4 +10,7 @@ contribution：1.CDL可抽取content的深度特征，并捕获content或者user
 3.使用了最大后验估计(MAP)，CDL贝叶斯法则的抽样，贝叶斯版本的反向传播。  
 4.CDL是第一个在最新的深度学习模型和RS之间架起桥梁的层次化贝叶斯模型。此外，由于其贝叶斯性质，CDL可以轻松扩展以合并其他辅助信息以进一步提高性能。  
 
-method:
+method:1.堆叠式降噪自动编码器（stacked Denoising Autoencoders——SDAE）：SDAE是一个前馈神经网络，用于通过学习预测输出中的干净输入本身来学习输入数据的表示(encoding)，如下图所示。通常中间的隐藏层，即图中的X2，被限制为瓶颈，而输入层X0是干净输入数据的损坏版本。
+![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2015-Collaborative%20Deep%20Learning%20for%20Recommender%20Systems/1.jpg)  
+![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2015-Collaborative%20Deep%20Learning%20for%20Recommender%20Systems/2.jpg)  
+![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2015-Collaborative%20Deep%20Learning%20for%20Recommender%20Systems/3.jpg)  

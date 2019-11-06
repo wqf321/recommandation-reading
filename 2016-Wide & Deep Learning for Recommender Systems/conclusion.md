@@ -5,8 +5,10 @@ contributions:
 2.在GooglePlay（移动应用商店拥有超过十亿的活跃用户和超过一百万个应用）上实现的Wide＆Deep推荐系统的实施和评估。  
 3.有tensorflow开源代码。  
 
-method:  
-evaluation:  
+method:  wide&deep模型主要分成两部分，wide部分就是传统的LR模型，deep部分就是DNN，整个模型的结构如下图：
+
+evaluation:本文从两方面评价了该模型的性能，1.App Acquisitions（应用购买）：对比单独用wide和deep以及wide&deep如下表 ：
+2.Serving Performance（服务表现）：在流量高峰时，该推荐系统每秒可处理超过1000万个应用程序。性能如下表：
 conclusion:  
 难点：  
 不足：  

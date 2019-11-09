@@ -29,3 +29,5 @@ method:
 6.MLP:用MLP（多层感知机）来学习用户和项目潜在特征之间的相互作用。NCF框架下，MLP模型定义为：![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2017-Neural%20Collaborative%20Filtering/8.jpg）
 7.GMF与MLP结合
 ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/2017-Neural%20Collaborative%20Filtering/9.jpg）
+
+evaluation:本文采用了两个可公开访问的数据集： MovieLens4 和 Pinterest5 两个数据集。 为了评价项目推荐的性能，采用了leave-one-out方法评估，即：对于每个用户，我们将其最近的一次交互作为测试集（数据集一般都有时间戳），并利用余下的培训作为训练集。由于在评估过程中为每个用户排列所有项目花费的时间太多，所以遵循一般的策略，随机抽取100个不与用户进行交互的项目，将测试项目排列在这100个项目中。排名列表的性能由命中率（HR）和归一化折扣累积增益（NDCG）来衡量。 没有特别说明的话，我们将这两个指标的排名列表截断为10。如此一来，HR直观地衡量测试项目是否存在于前10名列表中，而NDCG通过将较高分数指定为顶级排名来计算命中的位置。我们计算了每个测试用户的这两个指标，并求取了平均分

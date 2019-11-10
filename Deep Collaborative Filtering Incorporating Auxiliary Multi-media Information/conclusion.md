@@ -20,4 +20,5 @@ method:1.DMM-CF框架：
 优化损失包括代表偏好误差和潜在向量差的两部分，可以将其形式化为：  
 ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/Deep%20Collaborative%20Filtering%20Incorporating%20Auxiliary%20Multi-media%20Information/7.jpg)   
 
-evaluation:
+evaluation:为了评估所提出方法的性能，我们在Keras上同时实现了我们的方法和基准方法，并对公共MovieLens数据集进行了广泛的实验。我们进行实验的基本数据集是2009年发布的公开MovieLens-10M的10％随机抽样（基于用户），由5星级用户对电影的评分组成。为了获得我们提议的方法的辅助多媒体信息，我们提取了电影的导演，演员，类型和海报图像。这些电影的辅助信息来自MovieLens数据集或Internet MoiveDatabase（IMDb）.
+本文与三种以往方法比较了性能：Probabilistic matrix factorization (PMF) ；Neural  Collaborative  Filtering  (NCF) ；DeepFM  

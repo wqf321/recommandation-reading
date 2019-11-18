@@ -5,6 +5,7 @@ contributions:1,训练了从视频内容到CF信号的映射，建立了视频�
 method:  
 1.how to extract video and audio features:下图1（a）部分说明了如何提取视频特征    
 ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/Collaborative%20Deep%20Metric%20Learning%20for%20Video%20Understanding/1.jpg)   
+1帧的速度传输进入 Inception-v3 network，这些帧级功能通过平均池化来聚合到视频级（可能有更好的聚合方法）
 出于存储和计算的原因，我们应用主成分分析(和白化)将特征维数减少到1，500。这些帧级特征通过平均池被聚集到视频级。我们使用VGG启发的声学模型和ResNet-50的改进版本提取音频特征。具体来说，音频被分成不重叠的960毫秒帧，然后用每10毫秒25毫秒窗口的短时傅立叶变换分解，产生64个熔化间隔的频谱图。
 2.协同深度度量学习：  
 上面提取的视觉和听觉特征简洁地表示了视频内容，但是不包含关于视频对之间关系的信息。我们为内容特征训练嵌入函数来预测协同信号。

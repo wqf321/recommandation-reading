@@ -9,6 +9,6 @@ Collaborative Filtering Models：
 [2018-KDD_Collaborative Deep Metric Learning for Video Understanding](https://github.com/wqf321/recommandation-reading/tree/master/Collaborative%20Deep%20Metric%20Learning%20for%20Video%20Understanding)  
 [2018-Deep Collaborative Filtering Incorporating Auxiliary Multi-media Information](https://github.com/wqf321/recommandation-reading/tree/master/Deep%20Collaborative%20Filtering%20Incorporating%20Auxiliary%20Multi-media%20Information)  
 Generic Feature-based Models：  
-[FM、FFM、DeepFM总结](https://github.com/wqf321/recommandation-reading/tree/master/FM%E3%80%81FFM%E3%80%81DeepFM)
+[FM、FFM、DeepFM总结](https://github.com/wqf321/recommandation-reading/tree/master/FM%E3%80%81FFM%E3%80%81DeepFM)  
 [2016-Wide & Deep Learning for Recommender Systems](https://github.com/wqf321/recommandation-reading/tree/master/2016-Wide%20%26%20Deep%20Learning%20for%20Recommender%20Systems)  
 GNN for recommandation:  

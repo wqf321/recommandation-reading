@@ -11,4 +11,5 @@ Collaborative Filtering Models：
 Generic Feature-based Models：  
 [FM、FFM、DeepFM总结](https://github.com/wqf321/recommandation-reading/tree/master/FM%E3%80%81FFM%E3%80%81DeepFM)  
 [2016-Wide & Deep Learning for Recommender Systems](https://github.com/wqf321/recommandation-reading/tree/master/2016-Wide%20%26%20Deep%20Learning%20for%20Recommender%20Systems)  
+[2016-Deep Neural Networks for YouTube Recommendations](https://github.com/wqf321/recommandation-reading/tree/master/Deep%20Neural%20Networks%20for%20YouTube%20Recommendations)  
 GNN for recommandation:  

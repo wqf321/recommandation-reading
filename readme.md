@@ -11,7 +11,10 @@ Collaborative Filtering Models：
 Generic Feature-based Models：  
 [FM、FFM、DeepFM总结](https://github.com/wqf321/recommandation-reading/tree/master/FM%E3%80%81FFM%E3%80%81DeepFM)  
 [2016-Wide & Deep Learning for Recommender Systems](https://github.com/wqf321/recommandation-reading/tree/master/2016-Wide%20%26%20Deep%20Learning%20for%20Recommender%20Systems)  
+[2016-Deep Learning over Multi-field Categorical Data--A Case Study on User Response Prediction(FNN)](https://github.com/wqf321/recommandation-reading/tree/master/Deep%20Learning%20over%20Multi-field%20Categorical%20Data--A%20Case%20Study%20on%20User%20Response%20Prediction)  
+[2016-Product-based Neural Networks for User ResponsePrediction(PNN)](https://github.com/wqf321/recommandation-reading/tree/master/Product-based%20Neural%20Networks%20for%20User%20ResponsePrediction)  
 [2016-Deep Neural Networks for YouTube Recommendations](https://github.com/wqf321/recommandation-reading/tree/master/Deep%20Neural%20Networks%20for%20YouTube%20Recommendations)  
+[2017-Deep & Cross Network for Ad Click Predictions](https://github.com/wqf321/recommandation-reading/tree/master/Deep%20%26%20Cross%20Network%20for%20Ad%20Click%20Predictions)  
 GNN for recommandation:  
 [CIKM2019-graph-for-recommendation(综述)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/CIKM2019-graph-for-recommendation)  
 [2017-Inductive Representation Learning on Large Graphs(GraphSAGE)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Inductive%20Representation%20Learning%20on%20Large%20Graphs)  

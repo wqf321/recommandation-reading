@@ -13,3 +13,6 @@ Generic Feature-based Models：
 [2016-Wide & Deep Learning for Recommender Systems](https://github.com/wqf321/recommandation-reading/tree/master/2016-Wide%20%26%20Deep%20Learning%20for%20Recommender%20Systems)  
 [2016-Deep Neural Networks for YouTube Recommendations](https://github.com/wqf321/recommandation-reading/tree/master/Deep%20Neural%20Networks%20for%20YouTube%20Recommendations)  
 GNN for recommandation:  
+[CIKM2019-graph-for-recommendation(综述)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/CIKM2019-graph-for-recommendation)  
+[2017-Inductive Representation Learning on Large Graphs(GraphSAGE)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Inductive%20Representation%20Learning%20on%20Large%20Graphs)  
+[2016-SEMI-SUPERVISEDCLASSIFICATION WITHGRAPHCONVOLUTIONALNETWORKS(GCN)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/SEMI-SUPERVISEDCLASSIFICATION%20WITHGRAPHCONVOLUTIONALNETWORKS)  

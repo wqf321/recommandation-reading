@@ -29,3 +29,8 @@ product layer可以分成两个部分，一部分是线性部分lz，一部分�
 文中定义的矩阵的点乘：  
 ![Image text](https://github.com/wqf321/recommandation-reading/blob/master/Product-based%20Neural%20Networks%20for%20User%20ResponsePrediction/6.png)  
 总的来说，PNN使用产品层来探索特征交互。向量乘积可以被视为一系列加法/乘法运算。内积和外积只是两个实现。  
+my_opinion:  
+受DeepFM的comparation启发：
+1.我们发现out product的可靠性不如inner product，因为out product的近似计算会丢失大量信息，从而导致结果不稳定。
+2.尽管内积更可靠，但是由于product层的输出连接到第一隐藏层的所有神经元，因此它仍然遭受较高的计算复杂性。
+3.PNN忽略低阶特征交互

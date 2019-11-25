@@ -17,7 +17,7 @@ Generic Feature-based Models：
 [2017-Deep & Cross Network for Ad Click Predictions](https://github.com/wqf321/recommandation-reading/tree/master/Deep%20%26%20Cross%20Network%20for%20Ad%20Click%20Predictions)  
 GNN for recommandation:  
 [CIKM2019-graph-for-recommendation(综述)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/CIKM2019-graph-for-recommendation)  
-[Graph Attention Network](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Graph%20Attention%20Network)
-[Simplifying Graph Convolutional Networks(SGC)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Simplifying%20Graph%20Convolutional%20Networks)
+[Graph Attention Network](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Graph%20Attention%20Network)  
+[Simplifying Graph Convolutional Networks(SGC)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Simplifying%20Graph%20Convolutional%20Networks)  
 [2017-Inductive Representation Learning on Large Graphs(GraphSAGE)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Inductive%20Representation%20Learning%20on%20Large%20Graphs)  
 [2016-SEMI-SUPERVISEDCLASSIFICATION WITHGRAPHCONVOLUTIONALNETWORKS(GCN)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/SEMI-SUPERVISEDCLASSIFICATION%20WITHGRAPHCONVOLUTIONALNETWORKS)  

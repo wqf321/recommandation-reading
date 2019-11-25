@@ -11,4 +11,6 @@ method:思想：针对每一个节点运算相应的隐藏信息，在运算其�
 2.灵活：针对有不同度（degree）的节点，可以运用任意大小的weight与之对应。（这里我们解释一个概念，节点的度degree：表示的是与这个节点相连接的节点的个数）  
 3.可移植：可以将模型应用于从未见过的图结构数据，不需要与训练集相同。  
 具体推导见文：  
-https://blog.csdn.net/weixin_36474809/article/details/89401552
+https://blog.csdn.net/weixin_36474809/article/details/89401552  
+
+https://blog.csdn.net/b224618/article/details/81407969（辅助理解）

@@ -21,3 +21,5 @@ GNN for recommandation:
 [Simplifying Graph Convolutional Networks(SGC)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Simplifying%20Graph%20Convolutional%20Networks)  
 [2017-Inductive Representation Learning on Large Graphs(GraphSAGE)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Inductive%20Representation%20Learning%20on%20Large%20Graphs)  
 [2016-SEMI-SUPERVISEDCLASSIFICATION WITHGRAPHCONVOLUTIONALNETWORKS(GCN)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/SEMI-SUPERVISEDCLASSIFICATION%20WITHGRAPHCONVOLUTIONALNETWORKS)  
+RL for Recommadation:
+

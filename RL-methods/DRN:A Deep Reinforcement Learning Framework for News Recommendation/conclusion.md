@@ -18,3 +18,6 @@ contribution:
 2.使用用户活跃度作为一种新的反馈，来提高推荐的准确性。  
 3.使用了一种更加高效的探索算法：Dueling Bandit Gra- dient Descent。  
 4.模型可以进行在线学习和更新，在离线和在线实验上的表现都超过了传统的算法。  
+method:
+参考：https://blog.csdn.net/weixin_41864878/article/details/90080576
+https://www.jianshu.com/p/c0384b213320

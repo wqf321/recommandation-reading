@@ -21,5 +21,11 @@ GNN for recommandation:
 [Simplifying Graph Convolutional Networks(SGC)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Simplifying%20Graph%20Convolutional%20Networks)  
 [2017-Inductive Representation Learning on Large Graphs(GraphSAGE)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/Inductive%20Representation%20Learning%20on%20Large%20Graphs)  
 [2016-SEMI-SUPERVISEDCLASSIFICATION WITHGRAPHCONVOLUTIONALNETWORKS(GCN)](https://github.com/wqf321/recommandation-reading/tree/master/GNN-methods/SEMI-SUPERVISEDCLASSIFICATION%20WITHGRAPHCONVOLUTIONALNETWORKS)  
-RL for Recommadation:
-
+RL for Recommadation:  
+[A Model-Based Reinforcement Learning with Adversarial Training for Online Recommendation](https://github.com/wqf321/recommandation-reading/tree/master/RL-methods/A%20Model-Based%20Reinforcement%20Learning%20with%20Adversarial%20Training%20for%20Online%20Recommendation)  
+[DRN:A Deep Reinforcement Learning Framework for News Recommendation](https://github.com/wqf321/recommandation-reading/tree/master/RL-methods/DRN:A%20Deep%20Reinforcement%20Learning%20Framework%20for%20News%20Recommendation)  
+[Deep Reinforcement Learning for List-wise Recommendations](https://github.com/wqf321/recommandation-reading/tree/master/RL-methods/Deep%20Reinforcement%20Learning%20for%20List-wise%20Recommendations)  
+[Deep Reinforcement Learning for Page-wise Recommendations](https://github.com/wqf321/recommandation-reading/tree/master/RL-methods/Deep%20Reinforcement%20Learning%20for%20Page-wise%20Recommendations)  
+[Generative Adversarial User Model for Reinforcement Learning Based Recommendation System](https://github.com/wqf321/recommandation-reading/tree/master/RL-methods/Generative%20Adversarial%20User%20Model%20for%20Reinforcement%20Learning%20Based%20Recommendation%20System)  
+[Recommendations with Negative Feedback via Pairwise Deep Reinforcement Learning](https://github.com/wqf321/recommandation-reading/tree/master/RL-methods/Recommendations%20with%20Negative%20Feedback%20via%20Pairwise%20Deep%20Reinforcement%20Learning)  
+[Reinforcement Learning to Optimize Long-term User Engagement in Recommender Systems](https://github.com/wqf321/recommandation-reading/tree/master/RL-methods/Reinforcement%20Learning%20to%20Optimize%20Long-term%20User%20Engagement%20in%20Recommender%20Systems)  
